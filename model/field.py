@@ -38,7 +38,6 @@ class Field:
     def find_food_and_eat(self):
         result = None
         for f in self.food:
-            print(f.position, self.player.position)
             if f.position == self.player.position:
                 result = f
         index = None
