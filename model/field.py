@@ -8,7 +8,7 @@ from model.sprites import Player, Food
 class Field:
     settings: FieldSettings
     player: Player
-    food: list[Food]
+    food: list
     score: int
 
     def __init__(self, settings: FieldSettings):
